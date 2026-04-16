@@ -5,6 +5,7 @@ print(my_string.lower())       # Output: "hello, world!"
 print(my_string.replace("World", "Python"))  # Output: "Hello, Python!"
 print(my_string.split(", "))  # Output: ['Hello', 'World!']
 print(my_string.strip())       # Output: "Hello, World!"
+print(my_string.join(["Hi", "there"]))  # Output: "HiHello, World!there"
 
 str="BALAJEE"
 print(str.isupper())
